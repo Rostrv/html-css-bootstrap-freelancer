@@ -7,8 +7,10 @@
     background-color: var(--bg-header);
 }
 
-#jumbo {
+#jumbo,
+#about {
     background-color: var(--bg-green);
+    padding: 50px 0;
 }
 
 #jumbo img {
@@ -37,7 +39,8 @@
     background-color: black;
 }
 
-#portfolio {
+#portfolio,
+#contact {
     margin: 50px 0;
 }
 
@@ -46,6 +49,6 @@
     border-radius: 25px;
 }
 
-.ciao {
-    background-color: red;
+#contact button {
+    background-color: var(--bg-green);
 }
