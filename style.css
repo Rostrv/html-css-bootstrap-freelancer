@@ -1,0 +1,31 @@
+:root {
+    --bg-header: #2C3E50;
+    --bg-green: #1ABC9C;
+}
+
+.header {
+    background-color: var(--bg-header);
+}
+
+#jumbo {
+    background-color: var(--bg-green);
+}
+
+#jumbo img {
+    width: 25%;
+}
+
+.white_star::after,
+.white_star::before {
+    content: "";
+    display: inline-block;
+    height: 2px;
+    width: 10%;
+    border-radius: 2px;
+    vertical-align: middle;
+    background-color: #fff;
+}
+
+.ciao {
+    background-color: red;
+}
