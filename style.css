@@ -1,6 +1,7 @@
 :root {
     --bg-header: #2C3E50;
     --bg-green: #1ABC9C;
+    --bg-footer: #3A546D;
 }
 
 .header {
@@ -51,4 +52,29 @@
 
 #contact button {
     background-color: var(--bg-green);
+}
+
+#footer_nav {
+    background-color: var(--bg-footer);
+    padding: 50px 0;
+}
+
+footer h3 {
+    text-transform: uppercase;
+}
+
+#footer_nav span {
+    color: #1abc9c;
+}
+
+#footer_nav i {
+    color: white;
+    border: 1px solid;
+    border-radius: 100%;
+    padding: 13px 16px;
+    margin: 5px;
+}
+
+#copyright {
+    background-color: var(--bg-header);
 }
