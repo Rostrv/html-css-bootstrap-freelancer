@@ -19,11 +19,31 @@
 .white_star::before {
     content: "";
     display: inline-block;
-    height: 2px;
+    height: 4px;
     width: 10%;
     border-radius: 2px;
     vertical-align: middle;
     background-color: #fff;
+}
+
+.black_star::after,
+.black_star::before {
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width: 10%;
+    border-radius: 2px;
+    vertical-align: middle;
+    background-color: black;
+}
+
+#portfolio {
+    margin: 50px 0;
+}
+
+#portfolio img {
+    width: 100%;
+    border-radius: 25px;
 }
 
 .ciao {
